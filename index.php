@@ -1,7 +1,7 @@
 <?php
 // Buku tamu PHP + PDO + PostgreSQL.
 const PEMILIK = "24161562074 - Joevan Atha";
-const VERSI = "1.0";
+const VERSI = "1.1";
 
 function db(int $timeout = 5): PDO {
     $u = parse_url(getenv("DATABASE_URL"));
